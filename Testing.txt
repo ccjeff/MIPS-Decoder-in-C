@@ -1,0 +1,10 @@
+Our general testing strategy:
+	We started off just slightly editing the original dump file so that we could know that the file still ran correctly after our edits.
+
+	Then we specifically tested memory in a variety of ways, since memory was not used at all in the normal example.
+		For example, we changed different index values in the memory to make sure it worked out.
+		We checked the bounds and made sure the error messages printed as expected.
+		We tried overwriting different memory addresses to make sure the new one would be stored and loaded correctly.
+
+	Then we also tried to make sure any unused functions in the normal test case were used in ours, and executed correctly.
+	
